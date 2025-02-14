@@ -38,25 +38,25 @@ access-modifiers-demo/
   - Maven 3+ installed
 
 2️⃣ Clone the Repository
-
+```
 git clone https://github.com/your-repo/access-modifiers-demo.git
 cd access-modifiers-demo
-
+```
 3️⃣ Build the Project
-
+```
 mvn clean install
-
+```
 4️⃣ Run the Application
-
+```
 mvn exec:java -Dexec.mainClass="com.example.Main"
-
+```
 🎯 Expected Output
-
+```
 Anyone in the city can visit the public park!
 Visiting: Relaxing in the backyard.
 Inside the house...
 This is a private secret room.
-
+```
 🏗️ Access Modifier Explanation
 
 Modifier
@@ -90,9 +90,9 @@ Accessible only within the same package
 GatedCommunity
 
 🛠️ Running Tests
-
+```
 mvn test
-
+```
 This runs unit tests defined in AccessModifiersTest.java.
 
 📌 Future Enhancements
