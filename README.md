@@ -97,11 +97,11 @@ This runs unit tests defined in AccessModifiersTest.java.
 
 ## 📌 Future Enhancements
 
-Add more package-private examples
+- Add more package-private examples
 
-Extend test coverage
+- Extend test coverage
 
-Implement real-world applications of access modifiers
+- Implement real-world applications of access modifiers
 
 ## 📜 License
 
