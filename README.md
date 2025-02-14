@@ -31,33 +31,33 @@ access-modifiers-demo/
 ```
 ## 🚀 Getting Started
 
-1️⃣ Prerequisites
+1️⃣ **Prerequisites**
 
   - Java 8+ installed
 
   - Maven 3+ installed
 
-2️⃣ Clone the Repository
+2️⃣ **Clone the Repository**
 ```
 git clone https://github.com/your-repo/access-modifiers-demo.git
 cd access-modifiers-demo
 ```
-3️⃣ Build the Project
+3️⃣ **Build the Project**
 ```
 mvn clean install
 ```
-4️⃣ Run the Application
+4️⃣ **Run the Application**
 ```
 mvn exec:java -Dexec.mainClass="com.example.Main"
 ```
-🎯 Expected Output
+🎯 **Expected Output**
 ```
 Anyone in the city can visit the public park!
 Visiting: Relaxing in the backyard.
 Inside the house...
 This is a private secret room.
 ```
-🏗️ Access Modifier Explanation
+## 🏗️ Access Modifier Explanation
 
 Modifier
 
@@ -89,13 +89,13 @@ Accessible only within the same package
 
 GatedCommunity
 
-🛠️ Running Tests
+## 🛠️ Running Tests
 ```
 mvn test
 ```
 This runs unit tests defined in AccessModifiersTest.java.
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
 Add more package-private examples
 
@@ -103,6 +103,6 @@ Extend test coverage
 
 Implement real-world applications of access modifiers
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
