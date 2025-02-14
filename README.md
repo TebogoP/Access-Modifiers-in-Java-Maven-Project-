@@ -1,10 +1,10 @@
-Access Modifiers in Java (Maven Project) 🏡🌆
+# Access Modifiers in Java (Maven Project) 🏡🌆
 
-📌 Overview
+# 📌 Overview
 
 This project demonstrates Java Access Modifiers (public, private, protected, and default) using the house and city analogy. It is built using Maven and follows a structured project layout.
 
-📂 Project Structure
+## 📂 Project Structure
 ```
 access-modifiers-demo/
 │── pom.xml                   # Maven configuration file
@@ -29,13 +29,13 @@ access-modifiers-demo/
 │── .gitignore                 # Git ignore file
 │── README.md                  # Project documentation
 ```
-🚀 Getting Started
+## 🚀 Getting Started
 
 1️⃣ Prerequisites
 
-Java 8+ installed
+  - Java 8+ installed
 
-Maven 3+ installed
+  - Maven 3+ installed
 
 2️⃣ Clone the Repository
 
