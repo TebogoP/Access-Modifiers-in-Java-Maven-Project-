@@ -1,6 +1,6 @@
 # Access Modifiers in Java (Maven Project) 🏡🌆
 
-# 📌 Overview
+## 📌 Overview
 
 This project demonstrates Java Access Modifiers (public, private, protected, and default) using the house and city analogy. It is built using Maven and follows a structured project layout.
 
@@ -31,26 +31,24 @@ access-modifiers-demo/
 ```
 ## 🚀 Getting Started
 
-1️⃣ **Prerequisites**
+### 1️⃣ Prerequisites
+* **Java 8+** installed
+* **Maven 3+** installed
 
-  - Java 8+ installed
-
-  - Maven 3+ installed
-
-2️⃣ **Clone the Repository**
+### 2️⃣ Clone the Repository
 ```
 git clone https://github.com/your-repo/access-modifiers-demo.git
 cd access-modifiers-demo
 ```
-3️⃣ **Build the Project**
+### 3️⃣ Build the Project
 ```
 mvn clean install
 ```
-4️⃣ **Run the Application**
+### 4️⃣ Run the Application
 ```
 mvn exec:java -Dexec.mainClass="com.example.Main"
 ```
-🎯 **Expected Output**
+## 🎯 Expected Output
 ```
 Anyone in the city can visit the public park!
 Visiting: Relaxing in the backyard.
@@ -58,36 +56,29 @@ Inside the house...
 This is a private secret room.
 ```
 ## 🏗️ Access Modifier Explanation
+| Modifier | Behavior | Example |
+|----------|----------|---------|
+| `public` | Accessible anywhere | `CityPark` |
+| `private` | Accessible only within the class | `PrivateHouse` |
+| `protected` | Accessible within the same package & subclasses | `House`, `RelativeHouse` |
+| *default* | Accessible only within the same package | `GatedCommunity` |
 
-Modifier
+## 📝 Class Descriptions
 
-Behavior
+### CityPark (public)
+Represents a public space that anyone can access from anywhere, demonstrating the `public` access modifier.
 
-Example
+### GatedCommunity (default/package-private)
+Represents a community that's only accessible to residents of the same package, demonstrating default access.
 
-public
+### House (protected members)
+Contains protected fields and methods that can be accessed by classes in the same package and by subclasses.
 
-Accessible anywhere
+### PrivateHouse (private members)
+Contains private members that are only accessible within the class itself, demonstrating encapsulation.
 
-CityPark
-
-private
-
-Accessible only within the class
-
-PrivateHouse
-
-protected
-
-Accessible within the same package & subclasses
-
-House, RelativeHouse
-
-default
-
-Accessible only within the same package
-
-GatedCommunity
+### RelativeHouse (protected access through inheritance)
+Demonstrates how subclasses can access protected members from their parent classes.
 
 ## 🛠️ Running Tests
 ```
